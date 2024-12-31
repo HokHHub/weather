@@ -1,0 +1,64 @@
+.dnone {
+    display: none;
+}
+
+.weather {
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: -30px;
+    }
+
+    &__temp {
+        color: #FFF;
+        /* Diplay/Bold/Heading-1 */
+        font-family: 'Inter';
+        font-size: 72px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        margin-top: -30px;
+    }
+
+    &__city {
+        margin-top: 0;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.80);
+        font-family: 'Inter';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        /* 150% */
+        margin-bottom: 36px;
+    }
+
+    &__change {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.50);
+        /* Body/Italic */
+        font-family: 'Muli';
+        font-size: 17px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 28px;
+        /* 164.706% */
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+        margin-bottom: 343px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 94px;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.80);
+        }
+    }
+}

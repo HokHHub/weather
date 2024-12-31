@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Weather</h1>
+    </div>
+
+    <div class="weather">
+        <div class="container">
+            <img class="weather__img" src="https://openweathermap.org/img/wn/03d@4x.png" alt="">
+            <p class="weather__temp">8℃</p>
+            <p class="weather__city">Windy in Moscow</p>
+            <p class="weather__change">Change city</p>
+        </div>
+    </div>
+
+    <div class="input dnone">
+        <div class="container">
+            <form action="POST">
+                <input class="input__field" type="text" placeholder="Type your city here">
+                <hr class="input__hr">
+                <button class="input__submit" type="submit">Find</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="error dnone">
+        <div class="container">
+            <p class="error__text">Ooops. Something went wrong.</p>
+            <p class="error__subtext">Error info</p>
+            <button class="error__button">Try again</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="footer__text">With ❤️ by Alex</p>
+    </div>
+</body>
+
+</html>
