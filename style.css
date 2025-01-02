@@ -87,10 +87,6 @@ html {
 }
 
 .footer__text {
-  position: fixed;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   /* Lead/Text - Regular */
